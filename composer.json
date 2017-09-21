@@ -42,7 +42,7 @@
     "require": {
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
-        "nrel/solarpaces": "1.002"
+        "nrel/nrel_solarpaces_profile": "1.002"
     },
     "repositories": [
         {
@@ -62,7 +62,7 @@
                 "source": {
                     "url": "https://github.com/NREL/nrel_solarpaces_profile.git",
                     "type": "git",
-                    "reference":"1.002"
+                    "reference":"master"
                 }
             }
         },
