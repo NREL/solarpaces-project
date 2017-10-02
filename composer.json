@@ -101,6 +101,7 @@
       "patch ./docroot/.htaccess < ./patches/htaccess-saml.patch",
       "/bin/ln -f -s ../../../../../../../vendor/twbs/bootstrap ./docroot/profiles/contrib/communications/themes/contrib/nrel_bootstrap/bootstrap",
       "/bin/ln -f -s ../../../../../../../vendor/twbs/bootstrap ./docroot/profiles/contrib/communications/themes/contrib/thesource/bootstrap",
+      "/bin/ln -f -s ../../../../../../../vendor/twbs/bootstrap ./docroot/profiles/contrib/nrel_solarpaces_profile/themes/custom/nrel_solarpaces_theme/bootstrap",
       "rm -Rf ./docroot/libraries/d3/.git*",
       "rm -Rf ./docroot/libraries/highlightjs/.git*",
       "rm -Rf ./docroot/modules/contrib/elasticsearch_connector/.git",
